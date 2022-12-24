@@ -22,3 +22,6 @@ a{
 .inner:hover img{
     transform: scale(1.5);
 }
+.fimg{
+    height: 60px;
+}
