@@ -7,10 +7,18 @@
     color: darkblue;
     cursor: pointer;
 }
-.fimg{
-    height: 60px;
-}
+
 a{
     text-decoration: none;
     color: inherit;
+}
+.inner{
+    overflow: hidden;
+    max-height: 150px;
+}
+.inner img{
+    transition: all 1.5S ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
 }
